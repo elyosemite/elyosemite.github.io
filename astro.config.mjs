@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 import starlightThemeRapide from 'starlight-theme-rapide'
 
 export default defineConfig({
+	site: 'https://elyosemite.github.io',
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapide()],
@@ -12,9 +13,6 @@ export default defineConfig({
 				{ icon: 'discord', label: 'Discord', href: 'https://github.com/withastro/starlight' },
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
 			],
-			// components: {
-			// 	PageSidebar: "./src/components/CustomRightSidebar.astro",
-			// },
 			sidebar: [
 				{
 					label: 'Guides',
