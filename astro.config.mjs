@@ -17,6 +17,7 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					items: [
+						{ label: 'Database Proposal To EventCatalog', slug: 'guides/database_proposal' },
 						{ label: 'Example Guide', slug: 'guides/example' },
 						{ label: 'Introduction', slug: 'guides/instruction' },
 						{ label: 'Introduction to Terraform', slug: 'guides/terraform' },
